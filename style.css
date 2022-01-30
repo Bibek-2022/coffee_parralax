@@ -82,3 +82,12 @@ article {
   letter-spacing: 3px;
   backdrop-filter: blur(12px);
 }
+
+footer {
+  width: 100vw;
+  height: 20vh;
+  background: rgba(88, 71, 19, 0.336);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
