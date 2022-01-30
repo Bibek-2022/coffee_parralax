@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  font-size: 1.4rem;
+  font-family: "Billabong", Courier, monospace;
+}
+
+p {
+  margin: 3rem;
+}
+.img1 {
+  width: 100vw;
+  height: 100vh;
+  background: url(./assets/image1.jpg) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero {
+  background: rgba(88, 71, 19, 0.336);
+  border-radius: 5px;
+  text-align: center;
+  padding: 2rem;
+}
+.img2 {
+  width: 100vw;
+  height: 50vh;
+  background: url(./assets/coffee7.jpg) no-repeat center center;
+  background-size: cover;
+}
+.img3 {
+  width: 100vw;
+  height: 50vh;
+  background: url(./assets/coffee5.jpg) no-repeat center center;
+  background-size: cover;
+}
+.img4 {
+  width: 100vw;
+  height: 50vh;
+  background: url(./assets/coffee9.jpg) no-repeat center center;
+  background-size: cover;
+}
+.img1,
+.img2,
+.img3,
+.img4 {
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.down-arrow {
+  font-weight: bolder;
+  position: absolute;
+  bottom: 50px;
+  font-size: 1.2rem;
+  transform: rotate(90deg);
+  animation: go-down 2s infinite;
+}
+
+@keyframes go-down {
+  0% {
+    bottom: 100px;
+  }
+  100% {
+    bottom: 50px;
+  }
+}
+
+article {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.title {
+  background: rgb(247, 244, 244, 0.5);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  backdrop-filter: blur(12px);
+}
